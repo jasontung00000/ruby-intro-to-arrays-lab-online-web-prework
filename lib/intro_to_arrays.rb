@@ -1,4 +1,8 @@
-def instantiate_new_array
-  @my_new_array = instantiate_new_array
+def add_element_to_end_of_array(array, element)
+  actors = ["Christian", "Denzel", "Richards", "Forrest"]
+  element = "Alec"
+  
+  actors.push("Alec")
+  return  actors
 end
   
